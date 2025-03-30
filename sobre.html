@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempus</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imgs/img3.ico" type="image/x-icon">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">   
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            TEMPUS
+        </div>
+
+        <span onclick="menuShow()" id="burguer" class="material-symbols-outlined">
+            menu
+        </span>
+        <nav>
+            <a href="index.html" onclick="setActive(this)">Início</a>
+            <a href="#" onclick="setActive(this)">Sobre</a>
+            <a href="shop.html" onclick="setActive(this)">Shop</a>
+            <a href="contato.html" onclick="setActive(this)">Contato</a>
+            
+        </nav>
+
+    </header>
+
+    <main id="sobre">
+        
+        <h1>SOBRE <span>NÓS</span></h1>
+
+        <img class="img-sobre" src="imgs/sobre.jpeg" alt="Imagem de um relógio de bolso antigo com corrente">
+        
+
+        <div class="sobre-nos">
+            <p class="paragrafo-primeiro">A TEMPUS nasceu da paixão de combinar o charme do clássico com o design contemporâneo. Nosso objetivo é oferecer mais do que simples acessórios: buscamos proporcionar uma experiência que valoriza o tempo e a sofisticação.</p>
+            <p>Cada peça de nossa coleção é selecionada com atenção aos detalhes e à qualidade. Em nossa loja, acreditamos que um relógio de bolso é uma verdadeira obra de arte, feita para marcar momentos especiais com estilo e precisão.</p>
+            <p class="paragrafo-final">Convidamos você a explorar nosso universo e encontrar o relógio perfeito para acompanhar sua jornada.</p>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
